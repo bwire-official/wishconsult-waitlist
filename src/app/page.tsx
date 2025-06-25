@@ -227,16 +227,16 @@ export default function Home() {
             </div>
             <CheckCircle className="w-20 h-20 text-green-400 mx-auto mb-6" />
             <h1 className="text-3xl font-bold text-white mb-4">
-              {isDuplicate ? 'Welcome Back! 🎉' : 'You&apos;re In! 🎉'}
+              {isDuplicate ? 'Welcome Back! 🎉' : 'You\'re In! 🎉'}
             </h1>
             <p className="text-blue-100 mb-6 text-lg">
               {isDuplicate 
                 ? `Great to see you again! You're still #${userPosition} on our exclusive invite list. Please be patient - we're working hard to get you access soon.`
-                : `Welcome to the elite! You&apos;re now #${userPosition} on our exclusive invite list. You&apos;ll be among the very first to experience our revolutionary platform.`
+                : `Welcome to the elite! You're now #${userPosition} on our exclusive invite list. You'll be among the very first to experience our revolutionary platform.`
               }
             </p>
             <p className="text-blue-200 mb-6 text-base">
-              We&apos;ll notify you at{' '}
+              We'll notify you at{' '}
               <span className="font-semibold text-green-400">{email}</span> when we launch with exclusive founding member benefits, special discounts, and priority access to all our courses and mentorship programs.
             </p>
             
@@ -553,7 +553,7 @@ export default function Home() {
               Learn Directly from Consultants
             </h3>
             <p className="text-blue-200 leading-relaxed">
-              Our programs are designed and led by experienced, practicing consultants, giving you access to the practical knowledge you won&apos;t find in textbooks.
+              Our programs are designed and led by experienced, practicing consultants, giving you access to the practical knowledge you won't find in textbooks.
             </p>
           </motion.div>
 
