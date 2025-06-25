@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wish Consult Early Access Waitlist
+
+A modern, professional landing page for Wish Consult—a mentorship and learning platform for medical students. Built with Next.js 15, Tailwind CSS v3, and Supabase for waitlist email storage.
+
+## Features
+- Professional, exclusive landing page design
+- Animated floating lights and medical icons (hydration-safe)
+- Waitlist email capture with Supabase backend
+- Shows user their waitlist position and special messages for new/returning users
+- Animated hero section, 3D cube, countdown timer
+- FAQ, social proof, and expert-focused messaging
+- Fully responsive and production-ready
 
 ## Getting Started
 
-First, run the development server:
-
+Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
+```bash
+npm run dev
+```
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for Production
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Environment Variables
+- Configure your Supabase credentials in a `.env` file for waitlist storage.
+
+## Tech Stack
+- Next.js 15 (App Router, React Server Components)
+- Tailwind CSS v3
+- Framer Motion (animations)
+- Supabase (waitlist backend)
+
+## Customization
+- Main page: `src/app/page.tsx`
+- Styles: `src/app/globals.css`, `tailwind.config.js`
+- Actions/server logic: `src/app/actions.ts`
+
+## Notes
+- All floating lights/particles use predefined positions for hydration safety.
+- Linting and build warnings are resolved.
 
 ## Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Supabase](https://supabase.com/)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy
+Deploy easily on [Vercel](https://vercel.com/) or your preferred platform.
