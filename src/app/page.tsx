@@ -367,13 +367,14 @@ export default function Home() {
           </div>
         </nav>
 
-        {/* Hero Section */}
+        {/* Hero  Section */}
         <motion.div 
           className="text-center mb-20"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+        
           {/* Professional Badge */}
           <motion.div 
             className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-green-500/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-blue-500/20"
